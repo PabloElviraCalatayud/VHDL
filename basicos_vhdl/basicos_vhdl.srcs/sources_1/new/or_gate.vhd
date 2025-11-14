@@ -47,9 +47,10 @@ begin
     process(input_vector)
         variable result : std_logic := '0';
         begin
-            for value in input_vector'range loop
-                result := result OR input_vector(value);
-            end loop;
-            output <= result;
-        end process;
+          result := '0';
+          for value in input_vector'range loop
+            result := result OR input_vector(value);
+          end loop;
+          output <= result;
+    end process;
 end or_gate_ARCH;

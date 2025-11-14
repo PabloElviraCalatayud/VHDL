@@ -47,6 +47,7 @@ begin
     process(input_vector)
         variable result : std_logic := '1';
         begin
+          result := '1';
             for value in input_vector'range loop
                 result := result AND input_vector(value);
             end loop;
