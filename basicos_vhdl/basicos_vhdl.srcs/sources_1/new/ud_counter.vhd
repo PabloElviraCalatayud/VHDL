@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 11/12/2025 07:13:27 PM
+-- Create Date: 11/16/2025 06:27:29 PM
 -- Design Name: 
--- Module Name: or_gate - Behavioral
+-- Module Name: ud_counter - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,26 +31,21 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity or_gate is
+entity ud_counter is
     generic(
-        input_length : integer := 2
+        output_length : integer := 4
     );
     port(
-        input_vector : in std_logic_vector(input_length - 1 downto 0);
-        output : out std_logic
+        clk : in std_logic;
+        enable : in std_logic;
+        up_down : in std_logic;
+        reset : in std_logic
     );
-end or_gate;
+end ud_counter;
 
-architecture or_gate_ARCH of or_gate is
+architecture ud_counter_ARCH of ud_counter is
 
 begin
-    process(input_vector)
-        variable result : std_logic := '0';
-        begin
-          result := '0';
-          for value in input_vector'range loop
-            result := result OR input_vector(value);
-          end loop;
-          output <= result;
-    end process;
-end or_gate_ARCH;
+
+
+end ud_counter_ARCH;

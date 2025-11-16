@@ -23,4 +23,3 @@ begin
       output <= result;
     end process;
 end xor_gate_ARCH;
-
