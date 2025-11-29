@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1.1 (64-bit)
+# SW Build 6233196 on Thu Sep 11 21:27:11 MDT 2025
+# IP Build 6232796 on Fri Sep 12 01:46:16 MDT 2025
+# SharedData Build 6233195 on Thu Sep 11 17:56:43 MDT 2025
+# Start of session at: Sat Nov 29 20:20:15 2025
+# Process ID         : 10597
+# Current directory  : /home/pelvira/Documents/Proyectos/VHDL/basicos_vhdl/basicos_vhdl.runs/synth_1
+# Command line       : vivado -log SP_BRAM_RDO.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SP_BRAM_RDO.tcl
+# Log file           : /home/pelvira/Documents/Proyectos/VHDL/basicos_vhdl/basicos_vhdl.runs/synth_1/SP_BRAM_RDO.vds
+# Journal file       : /home/pelvira/Documents/Proyectos/VHDL/basicos_vhdl/basicos_vhdl.runs/synth_1/vivado.jou
+# Running On         : pcmain
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7700X 8-Core Processor
+# CPU Frequency      : 2989.000 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32712 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 41302 MB
+# Available Virtual  : 36206 MB
+#-----------------------------------------------------------
+source SP_BRAM_RDO.tcl -notrace
