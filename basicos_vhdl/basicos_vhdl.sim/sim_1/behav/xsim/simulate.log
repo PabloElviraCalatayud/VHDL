@@ -1,1 +1,4 @@
 Time resolution is 1 ps
+Failure: FIN DE SIMULACION
+Time: 70 ns  Iteration: 0  Process: /tb_SP_BRAM_RDO/stim  File: /home/pelvira/Documents/Proyectos/VHDL/basicos_vhdl/basicos_vhdl.srcs/sim_1/new/SP_BRAM_RDO_tb.vhd
+$finish called at time : 70 ns : File "/home/pelvira/Documents/Proyectos/VHDL/basicos_vhdl/basicos_vhdl.srcs/sim_1/new/SP_BRAM_RDO_tb.vhd" Line 72

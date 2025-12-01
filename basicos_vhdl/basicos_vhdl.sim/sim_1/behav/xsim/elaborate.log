@@ -1,7 +1,7 @@
 Vivado Simulator v2025.1.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /home/pelvira/Programs/Vivado/2025.1.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot full_adder_tb_behav xil_defaultlib.full_adder_tb -log elaborate.log 
+Running: /home/pelvira/Programs/Vivado/2025.1.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_SP_BRAM_RDO_behav xil_defaultlib.tb_SP_BRAM_RDO -log elaborate.log 
 Using 8 slave threads.
 WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
 Starting static elaboration
@@ -12,6 +12,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture full_adder_arch of entity xil_defaultlib.full_adder [\full_adder(input_length=4)\]
-Compiling architecture tb of entity xil_defaultlib.full_adder_tb
-Built simulation snapshot full_adder_tb_behav
+Compiling package ieee.numeric_std
+Compiling architecture syn of entity xil_defaultlib.SP_BRAM_RDO [sp_bram_rdo_default]
+Compiling architecture tb of entity xil_defaultlib.tb_sp_bram_rdo
+Built simulation snapshot tb_SP_BRAM_RDO_behav

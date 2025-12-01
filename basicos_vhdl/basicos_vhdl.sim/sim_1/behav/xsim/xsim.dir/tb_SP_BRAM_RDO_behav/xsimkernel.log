@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_SP_BRAM_RDO_behav/xsimk -simmode gui -wdb tb_SP_BRAM_RDO_behav.wdb -simrunnum 0 -socket 38793
+Design successfully loaded
+Design Loading Memory Usage: 179408 KB (Peak: 179408 KB)
+Design Loading CPU Usage: 570 ms
+Simulation completed
+Simulation Memory Usage: 269344 KB (Peak: 318676 KB)
+Simulation CPU Usage: 570 ms
